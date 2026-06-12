@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>✨ Image Gallery</h1>
+    <p>Explore Beautiful Collections</p>
+</header>
+
+<!-- Filter Buttons -->
+<div class="filters">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="animals">Animals</button>
+    <button data-filter="cities">Cities</button>
+    <button data-filter="technology">Technology</button>
+</div>
+
+<!-- Gallery -->
+<section class="gallery">
+
+    <div class="gallery-item nature">
+        <img src="https://picsum.photos/id/1018/600/400" alt="" loading="lazy">
+        <div class="overlay">Mountain View</div>
+    </div>
+
+    <div class="gallery-item nature">
+        <img src="https://picsum.photos/id/1015/600/400" alt="" loading="lazy">
+        <div class="overlay"> Pulpit Rock</div>
+    </div>
+
+    <div class="gallery-item animals">
+        <img src="https://picsum.photos/id/1025/600/400" alt="" loading="lazy">
+        <div class="overlay">Cute Dog</div>
+    </div>
+
+    <div class="gallery-item animals">
+        <img src="https://picsum.photos/id/1074/600/400" alt="" loading="lazy">
+        <div class="overlay">Wild Animal</div>
+    </div>
+
+    <div class="gallery-item cities">
+        <img src="https://picsum.photos/id/1031/600/400" alt="" loading="lazy">
+        <div class="overlay">Modern City</div>
+    </div>
+
+    <div class="gallery-item cities">
+        <img src="https://picsum.photos/id/1043/600/400" alt="" loading="lazy">
+        <div class="overlay">forest</div>
+    </div>
+
+    <div class="gallery-item technology">
+        <img src="https://picsum.photos/id/180/600/400" alt="" loading="lazy">
+        <div class="overlay">Technology</div>
+    </div>
+
+    <div class="gallery-item technology">
+        <img src="https://picsum.photos/id/201/600/400" alt="" loading="lazy">
+        <div class="overlay">Technology</div>
+    </div>
+
+    <div class="gallery-item nature">
+        <img src="https://picsum.photos/id/1040/600/400" alt="" loading="lazy">
+        <div class="overlay">Neuschwanstein Castle</div>
+    </div>
+
+    <div class="gallery-item cities">
+        <img src="https://picsum.photos/id/1060/600/400" alt="" loading="lazy">
+        <div class="overlay">Café</div>
+    </div>
+
+    <div class="gallery-item animals">
+        <img src="https://picsum.photos/id/237/600/400" alt="" loading="lazy">
+        <div class="overlay">Black Dog</div>
+    </div>
+
+    <div class="gallery-item technology">
+        <img src="https://picsum.photos/id/119/600/400" alt="" loading="lazy">
+        <div class="overlay">Technology</div>
+    </div>
+
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox">
+    <span class="close">&times;</span>
+    <span class="prev">&#10094;</span>
+    <img class="lightbox-img">
+    <span class="next">&#10095;</span>
+</div>
+
+<!-- Spinner -->
+<div id="loader"></div>
+
+<footer>
+    © 2026 Image Gallery | Designed with HTML, CSS & JavaScript
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
